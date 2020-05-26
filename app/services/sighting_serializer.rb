@@ -5,7 +5,6 @@ class SightingSerializer
   end
 
   def to_serialized_json
-    def to_serialized_json
     options = {
       include: {
         bird: {
