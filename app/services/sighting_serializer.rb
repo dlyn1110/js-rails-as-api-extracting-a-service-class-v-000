@@ -1,7 +1,7 @@
 class SightingSerializer
 
-  def initialiaze(sighting_object)
-    @sighting = sighting_object
+  def initialiaze(sighting)
+    @sighting = sighting
   end
 
   def to_serialized_json
