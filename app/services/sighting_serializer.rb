@@ -19,3 +19,4 @@ class SightingSerializer
     }
     @sighting.to_json(options)
   end
+end
